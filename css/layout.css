@@ -318,7 +318,6 @@ ul#nav li.current a { color: #F06000; }
 
    margin: 0;
    padding-right: 24px;
-  	background: #313131;
    display: inline-block;
   	height: 42px;
    line-height: 42px;
@@ -326,32 +325,38 @@ ul#nav li.current a { color: #F06000; }
 }
 
 .photoshop {
-  	width: 60%;
+  	width: 70%;
+  	background: #5C1828;
   	-moz-animation: photoshop 2s ease;
   	-webkit-animation: photoshop 2s ease;
 }
 .illustrator {
-  	width: 55%;
+  	width: 75%;
+  	background: #050C1A;
   	-moz-animation: illustrator 2s ease;
   	-webkit-animation: illustrator 2s ease;
 }
 .wordpress {
-  	width: 50%;
+  	width: 90%;
+  	background: #7EAE95;
   	-moz-animation: wordpress 2s ease;
   	-webkit-animation: wordpress 2s ease;
 }
 .css {
-  	width: 90%;
+  	width: 50%;
+  	background: #5C1828;
   	-moz-animation: css 2s ease;
   	-webkit-animation: css 2s ease;
 }
 .html5 {
   	width: 80%;
+  	background: #050C1A;
   	-moz-animation: html5 2s ease;
   	-webkit-animation: html5 2s ease;
 }
 .jquery {
   	width: 50%;
+  	background: #7EAE95;
   	-moz-animation: jquery 2s ease;
   	-webkit-animation: jquery 2s ease;
 }
