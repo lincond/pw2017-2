@@ -24,9 +24,16 @@ if($_POST)
 
 	if (!$error)
 	{
-		if ($mail) { echo "OK"; }
-		  else { echo "Alguma coisa deu errado, por favor tente novamente."; }
-		
+		// include database config file
+		include 'database.php';
+		$conn = new mysqli($db_host, $db_user, $db_pass, $db_name);
+		if($conn->connect_error) { echo "Alguma coisa deu errado, por favor tente novamente."; die(); }
+		// insert the contact data into data base to feed the telegram bot
+		$sql = $conn->prepare("INSERT INTO contact(NAME, EMAIL, SUBJECT, MESSAGE) VALUES(?,?,?,?)");
+		$sql->bind_param("ssss", $name, $email, $subject, $contact_message);
+		$sql->execute();
+		$conn->close();
+		echo "OK";
 	} # end if - no validation error
 	else
 	{
