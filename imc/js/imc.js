@@ -10,14 +10,18 @@ $("#sexo").on("change", function(){
     calcula();
 });
 
+/*
+  Função que calcula o IMC e altera exibe o resultado
+  no HTMLs
+*/
 function calcula()
 {
     var altura = $("#altura").val();
     var peso   = $("#peso").val();
     var sexo   = $("#sexo").val();
 
-    var imc = peso / (altura * altura); 
-        
+    var imc = peso / (altura * altura);
+
     if ( sexo == "Masculino")
     {
         if (imc < 20.7)
