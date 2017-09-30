@@ -13,3 +13,7 @@ Este repositório contém os trabalhos executados na materia Programação Web d
 ## Trabalho 02 - IMC c/ JSP
 
 **Objetivo:** calcular o IMC utilizando o JSP. Feito utilizando jQuery, bootstrap, Maven e JSP. Link para o [source code](https://github.com/lincond/pw2017-2/tree/master/Trabalho%2002%20-%20IMC%20com%20JSP).
+
+## Trabalho 03 - IMC c/ Servlet MVC
+
+Em desenvolvimento...
