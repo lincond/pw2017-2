@@ -16,4 +16,4 @@ Este repositório contém os trabalhos executados na materia Programação Web d
 
 ## Trabalho 03 - IMC c/ Servlet MVC
 
-Em desenvolvimento...
+**Objetivo:** calcular o IMC utilizando Servlet com o padrão MVC. Construido utilizando jQuery, bootstrap, Maven e Servlet. Link para o [source code](https://github.com/lincond/pw2017-2/tree/master/Trabalho%2003%20-%20IMC%20com%20Servlet%20MVC).
